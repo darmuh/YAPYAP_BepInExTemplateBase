@@ -17,7 +17,7 @@ namespace BepInExModTemplate;
 [BepInAutoPlugin]
 public partial class Plugin : BaseUnityPlugin
 {
-    internal static ManualLogSource Log { get; private set; } = null!;
+    internal static ManualLogSource Log { get; private set; }
 
     private void Awake()
     {
