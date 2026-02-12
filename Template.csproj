@@ -10,7 +10,7 @@
     <Authors>Robyn, Hamunii</Authors>
     <Description>A BepInEx template for making mods for YAPYAP</Description>
     <PackageTags>dotnet new; template; BepInEx; YAPYAP</PackageTags>
-    <PackageProjectUrl>https://github.com/darmuh/BepInExTemplate</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/YapYapModding/YAPYAP_BepInExTemplateBase</PackageProjectUrl>
     <!-- Publish the repository URL in the built .nupkg (in the NuSpec <repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
