@@ -1,6 +1,6 @@
 # BepInEx Template for YAPYAP
 
-- [BepInEx Template for YAPYAP](#bepinex-template-for-gamename)
+- [BepInEx Template for YAPYAP](#bepinex-template-for-yapyap)
   - [Installing](#installing)
     - [From NuGet (Recommended)](#from-nuget-recommended)
     - [Manually](#manually)
@@ -15,7 +15,7 @@
 .NET templates must be installed before they can be used. This means that when you install the template, it doesn't create a new project for you, but now you have the ability to do that.
 
 > [!NOTE]  
-> You must use .NET SDK 8 or newer to use this template. Older SDK versions are out of support.
+> You must use .NET SDK 10 or newer to use this template. You can check your .NET SDK version by running the following in a terminal: `dotnet --version`. To download .NET SDK, see: <https://dotnet.microsoft.com/en-us/download>
 
 ### From NuGet (Recommended)
 
@@ -93,7 +93,7 @@ The template "YAPYAP BepInEx Plugin" was created successfully.
 ├── Directory.Build.targets
 ├── icon.png
 ├── LICENSE
-├── MyCoolMod.sln
+├── MyCoolMod.slnx
 ├── README.md
 └── src
     └── MyCoolMod
@@ -121,7 +121,7 @@ This template comes with Thunderstore packaging built-in, using [TCLI](<https://
 You can build Thunderstore packages by running:
 
 ```sh
-dotnet build -c Release -target:PackTS -v d
+dotnet build -c Release -v d
 ```
 
 > [!NOTE]  
